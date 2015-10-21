@@ -1,0 +1,125 @@
+html, body {
+	background: url('http://cool-wallpapers.us/wp-content/uploads/hqwallpapers/Blue-orange-brush-strokes-colorful-high-quality-wallpapers-2560x1600.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body { 
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+/* Header & Navigation */
+.header ul {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.navigation {
+	margin: 5px auto;
+}
+
+h1 {
+	color: #333 !important;
+	text-align: center;
+	font-weight: bolder !important;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 120px !important;
+}
+
+p {
+	color: #333;
+	font-size: 40px !important;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+}
+
+/* Home Jumbotron */
+.jumbotron {
+	height: 800px;
+	margin-top: -20px;
+	background: url('http://cool-wallpapers.us/wp-content/uploads/hqwallpapers/Blue-orange-brush-strokes-colorful-high-quality-wallpapers-2560x1600.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.jumbotron h1 {
+	margin-top: 80px;
+}
+
+.jumbotron p {
+	margin-bottom: 40px !important;
+}
+
+.button {
+	color: #FFF;
+	font-size: 18px;
+	position: static;
+	font-weight: 600;
+	padding: 16px 40px;
+	letter-spacing: 1.3px;
+	text-decoration: none;
+	background-color: #333;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	color: black;
+	cursor: pointer; 
+  	background: #0000FF;
+  	text-decoration: none;
+  	transition: color .5s;
+	transition: background .5s;  
+}
+
+/* Main */
+.main {
+	top: 80px;
+	position: relative;
+	text-align: center;	
+}
+
+/* Supporting */
+.supporting {
+	top: 0;
+}
+.supporting iframe {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/* Footer */
+.footer {
+	bottom: 0;
+	width: 100%;
+}
+
+.footer p {	
+	color: #000 !important;
+	font-size: 15px !important;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
